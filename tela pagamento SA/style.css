@@ -1,0 +1,202 @@
+body{
+
+    background-color: #ebebeb;
+
+}
+
+.conteiner{
+
+    background-color: #D9D9D9;
+    width: 55%;
+    height: 67%;
+    position: absolute;
+    left: 140px;
+    top: 90px;
+
+}
+
+.titulo{
+
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+    top: 25px;
+
+}
+
+.qntCarrinho{
+
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.nomeItem{
+
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 92px;
+
+}
+
+.valorItem{
+
+    font-size: 25px;
+    position: absolute;
+    left: 80%;
+    top: 83px;
+
+}
+
+img{
+
+    background-color: white;
+    padding: 10px;
+    width: 130px;
+    height: 150px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    
+}
+
+.condicaoItem{
+
+    font-size: 14px;
+    position: absolute;
+    left: 250px;
+    top: 140px;
+
+}
+
+.vendedorItem{
+
+    font-size: 14px;
+    position: absolute;
+    left: 250px;
+    top: 165px;
+
+}
+
+.qntItem{
+
+    border: none;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+
+#salvar{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    width: 160px;
+    padding: 15px;
+    position: absolute;
+    top: 300px;
+    left: 240px;
+
+}
+
+#salvar:hover{
+
+    cursor: pointer;
+    background-color: #ebebeb;
+
+}
+
+#excluir{
+
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    border: none;
+    width: 160px;
+    padding: 15px;
+    position: absolute;
+    top: 300px;
+    left: 440px;
+
+}
+
+#excluir:hover{
+
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+
+select{
+
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    width: 150px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+select:hover{
+
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+
+option{
+
+    font-size: 15px;
+
+}
+
+p{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.garantia{
+
+    border: 2px solid;
+    padding: 20px;
+    display: flex;
+    width: 86%;
+    position: absolute;
+    left: 50px;
+    top: 80%;
+    margin-bottom: 500px;
+
+}
+
+label{
+
+    font-size: 16px;
+}
+
+#semGarantia{
+
+    margin-left: 40px;
+}
+
+#garantia30dias{
+
+    margin-left: 80px;
+}
+
+#garantia1ano{
+
+    margin-left: 80px;
+}
+
+.escolhaGarantia{
+
+    cursor: pointer;
+    width: 25px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Pagamento</title>
+</head>
+<body>
+    <h2 class="titulo">Items</h2>
+    <div class="conteiner">
+        
+        <p class="qntCarrinho"><strong>Quantidade: 1 item(s)</strong></p>
+
+        <p class="nomeItem"><strong>Jogo Red Dead Redemption II para Ps4 (lacrado)</strong></p>
+        <p class="valorItem"><strong>R$: 77,70</strong></p>
+        <p class="condicaoItem">Condição: Novo</p>
+        <p class="vendedorItem">Vendedor: User4000x</p>
+
+        <img src="https://www.gamingreplay.com/41903-tm_large_default/red-dead-redemption-2-em-portugues-ps4.jpg" alt="">
+        
+        <div class="qntItem">
+
+            <select id="quantosItems">
+
+                <option value="1">Quantidade: 1</option>
+                <option value="2">Quantidade: 2</option>
+                <option value="3">Quantidade: 3</option>
+
+            </select>
+
+        </div>
+
+        <button id="salvar">Salvar para depois</button>
+        <button id="excluir">Excluir</button>
+
+        <div class="garantia">
+            
+            <p><strong>Adicionar garantia ao(s) produtos?</strong></p>
+
+            <input type="radio" id="semGarantia" name="garantiaDias" class="escolhaGarantia">
+            <label for="semGarantia">Sem Garantia</label>
+
+            <input type="radio" id="garantia30dias" name="garantiaDias" class="escolhaGarantia">
+            <label for="garantia30dias">30 dias</label>
+
+            <input type="radio" id="garantia1ano" name="garantiaDias" class="escolhaGarantia">
+            <label for="garantia1ano">1 ano</label>
+        </div>
+    </div>
+    
+    <div class="total">
+
+
+    </div>
+</body>
+</html>
